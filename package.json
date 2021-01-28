@@ -2,13 +2,13 @@
   "name": "ts-test",
   "version": "0.0.1",
   "description": "Test project for playing around with NodeJS and Typescript",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
     "start": "ts-node src/main.ts",
     "debug": "node --nolazy -r ts-node/register/transpile-only src/main.ts"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
